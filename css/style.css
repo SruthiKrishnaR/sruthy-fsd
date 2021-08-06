@@ -1,0 +1,50 @@
+h3{
+    color: yellow;
+    display:list-item ;
+} 
+
+/* For Class Styling */
+.heads{
+    color: teal;
+}
+
+/* For id styling */
+#heads{
+    color: red;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+
+    /* To see the border */
+    border: 2px solid black;
+    padding-left: 20px;
+    margin: 50px;
+
+}
+#sru{
+    /* font-weight: bold;
+    font-style: italic; */
+    font:25px "Lucida Sans";
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+    background-color: sandybrown;
+}
+
+a:hover{
+    color: silver;
+    background-color: tomato;
+}
+ul{
+    list-style: square;
+}
+body{
+    background-image: url(image.css.jpg);
+    background-size: cover;
+}
